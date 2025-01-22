@@ -39,6 +39,7 @@ public class Nested_Complex_Json {
 
         // Print no of copies sold by RPA Course
         for(int i=0;i<TotalCourse;i++) {
+            //this is how we have to provide a variable within the string
             String courseTitles = js.get("courses["+i+"].title");
             if (courseTitles.equalsIgnoreCase("RPA")){
                int copies = js.get("courses["+i+"].copies");

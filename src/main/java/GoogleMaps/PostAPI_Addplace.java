@@ -4,7 +4,6 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import netscape.javascript.JSObject;
 import org.testng.Assert;
 
 import static io.restassured.RestAssured.*;
